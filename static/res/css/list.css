@@ -1,0 +1,16 @@
+body{background-color: #000;}
+.panel{border-color: #0e920b;background-color: #000;}
+.panel>.panel-heading{color: #0e920b;background-color: #111;border-bottom: #0e920b 1px solid;}
+.mainCtrl{padding-top: 20px;}
+.btn{padding: 3px 8px;}
+
+.smsList{border-bottom: none;}
+.smsList .panel-body{padding: 0;}
+.smsList table{table-layout: fixed;width: 100%;}
+.smsList table th{color: #0e920b;border-left: #0e920b 1px solid;text-align: center;padding: 5px 0;border-bottom: #0e920b 1px solid;}
+.smsList table td{color: #0e920b;border-left: #0e920b 1px solid;text-align: center;padding: 5px 0;border-bottom: #0e920b 1px solid;}
+.smsList table .thid{border-left: none;}
+.smsList table .tdid{border-left: none;}
+
+.loading{ display: none; position: fixed;z-index: 3000;background: rgba(0,0,0,0.8);top: 0;left: 0;text-align: center;}
+.loading p{border: 2px solid #ccc;display: inline-block;padding: 10px;font-size: 20px;color: #fff;margin-top: 20%;}

@@ -1,0 +1,28 @@
+$def with (urlbase)
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="renderer" content="webkit">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>[1]GSM_SMS-操作界面</title>
+        <link href="$urlbase/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="$urlbase/res/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" style="padding-top:30px;">
+            <div class="col-12-md">
+                <button class="btn btn-danger" style="margin-left:5px" onclick="hacksms.downloadAll()">一键刷机</button>
+                <button class="btn btn-danger" style="margin-left:5px" onclick="hacksms.scanAll()">一键扫描</button>
+                <button class="btn btn-danger" style="margin-left:5px" onclick="hacksms.killdev()">杀死所有进程</button>
+                <button class="btn btn-danger" style="margin-left:5px" onclick="hacksms.resetPower()">重置所有电源</button>
+            </div>
+        </div>
+        <div class="container device" style="padding-top:20px;"></div>
+        <div class="loading"><p>正在执行，请耐心等待...</p></div>
+        <script src="$urlbase/res/js/jquery.min.js"></script>
+        <script src="$urlbase/bootstrap/js/bootstrap.min.js"></script>
+        <script src="$urlbase/res/js/index.js"></script>
+    </body>
+</html>

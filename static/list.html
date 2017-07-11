@@ -1,0 +1,38 @@
+$def with (urlbase)
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="renderer" content="webkit">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>[2]GSM_SMS-短信界面</title>
+        <link href="$urlbase/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="$urlbase/res/css/list.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mainCtrl">
+            <div class="panel panel-primary smsList">
+                <div class="panel-heading">SMS</div>
+                <div class="panel-body">
+                    <table cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th class="thid" width="60px">编号</th>
+                                <th width="120px">手机号码</th>
+                                <th width="120px">短信中心</th>
+                                <th>内容</th>
+                                <th width="80px">是否上行</th>
+                                <th width="155px">记录时间</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="$urlbase/res/js/jquery.min.js"></script>
+        <script src="$urlbase/bootstrap/js/bootstrap.min.js"></script>
+        <script src="$urlbase/res/js/list.js"></script>
+    </body>
+</html>
